@@ -22,7 +22,7 @@ h2 {
 }
 
 input, select, button {
-    width: 100%;
+    width: 250px;
     margin: 10px 0;
     padding: 8px;
     border-radius: 8px;
@@ -40,6 +40,10 @@ button {
 
 button:hover {
     background: #005ed1;
+}
+
+button:active {
+    transform: translateY(3px);
 }
 
 .result {
