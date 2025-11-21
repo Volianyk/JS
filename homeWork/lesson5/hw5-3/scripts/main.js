@@ -8,7 +8,7 @@ const exchange = (sumUAH, currencyValues, exchangeCurrency) => {
 };
 
 console.log(exchange(
-    4200,
+    10500,
     [
         {currency: 'USD', value: 42},
         {currency: 'EUR', value: 50}
