@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    margin: 20px;
+}
+
+.menu-item {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #2980b9;
+    transform: translateX(5px);
+}
