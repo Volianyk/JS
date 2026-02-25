@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    list-style: none;
+    width: 200px;
+    margin: 20px;
+    background-color: rgba(171, 186, 239, 0.84);
+    color: #131313;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.wrapperSecond {
+    list-style: none;
+    width: 200px;
+    margin: 20px;
+    background-color: rgb(180, 129, 198);
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.sour-gummy-font {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+

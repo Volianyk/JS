@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    background-color: #efebeb;
+}
+
+.title {
+    border: 2px solid #2980b9;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.duration {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.month,
+.hour {
+    border: 2px solid #057373;
+    padding: 5px 20px;
+    flex: 1;
+}
+
+.month {
+    flex: 1;
+}
+
+.hour {
+    flex: 2;
+}
+
+.modules {
+    border: 2px solid #8e44ad;
+    padding: 5px;
+}
+
+.modules li {
+    border: 1px solid #34495e;
+    margin: 3px 0;
+    padding: 5px 20px;
+    list-style: none;
+    border-radius: 10px;
+    cursor: default;
+    transition: 0.2s;
+}
+
+.modules li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modules li, .month,
+.hour, .title {
+    background-color: white;
+}
+
+
+.noto-sans-mono-font {
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
