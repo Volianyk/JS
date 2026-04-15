@@ -10,6 +10,6 @@ target.onclick = function (ev) {
 //     let r=ev.clientX;
 //     let g=ev.clientY;
 //     let b=ev.clientX;
-//     this.style.background=`rgb(${r},${g},${b})`;
+//     this.styles.background=`rgb(${r},${g},${b})`;
 // }
 

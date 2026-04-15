@@ -5,14 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HW 10-4</title>
+    <title>HW 10-6</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div id="container">
-    <input id="convertor" type="number" placeholder="Enter value here">
-    <div id="result"></div>
-</div>
+<form name="tableSetter">
+    <input type="number" name="lines">
+    <input type="number" name="cells">
+    <input type="text" name="content">
+    <button type="submit">generate</button>
+</form>
+<table id="table"></table>
 <script src="scripts/main.js"></script>
 </body>
 </html>
